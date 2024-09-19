@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabecera */
+.cabecera {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Productos */
+.productos {
+    padding: 20px;
+    text-align: left;
+}
+
+.productos h2 {
+    color: #333;
+}
+
+.productos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.productos li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.productos button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.productos button:hover {
+    background-color: #45a049;
+}
+
+/* Carrito */
+.carrito {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.carrito h2 {
+    color: #333;
+}
