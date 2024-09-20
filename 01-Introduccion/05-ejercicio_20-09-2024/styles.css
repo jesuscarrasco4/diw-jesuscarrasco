@@ -1,0 +1,45 @@
+* {
+    box-sizing: 100%;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.colores {
+    display: flex;
+    height: 100vh;
+    margin: 1% 1% 1% 1%;
+    text-align: center;
+    
+}
+
+.azul, .rojo, .verde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.azul {
+    background-color: rgb(94, 200, 253);
+    width: 25%; 
+    margin: .2%;
+    margin-bottom: 1%;
+}
+
+.verde {
+    background-color: rgb(70, 253, 70);
+    width: 50%;
+    margin: .2%;
+    margin-bottom: 1%;
+
+}
+
+.rojo {
+    background-color: rgb(212, 83, 83);
+    width: 25%;
+    margin: .2%;
+    margin-bottom: 1%;
+}
