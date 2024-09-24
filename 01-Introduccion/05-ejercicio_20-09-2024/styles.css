@@ -27,6 +27,8 @@ body, html {
     width: 25%; 
     margin: .2%;
     margin-bottom: 1%;
+    writing-mode: vertical-rl; /* Texto de abajo hacia arriba */
+  
 }
 
 .verde {
@@ -42,4 +44,5 @@ body, html {
     width: 25%;
     margin: .2%;
     margin-bottom: 1%;
+    writing-mode: vertical-lr; /* El texto fluye de arriba hacia abajo */
 }
