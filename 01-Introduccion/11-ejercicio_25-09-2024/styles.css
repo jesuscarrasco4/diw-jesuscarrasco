@@ -34,7 +34,7 @@ nav ul li a {
     color: black;
 }
 
-.main-content {
+.section1 {
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -61,8 +61,9 @@ aside {
 
 }
 
-.extra-content {
+.section2 {
     margin: 5px;
+    margin-left: 22%;
     background-color: #d1d1d1;
     padding: 20px;
     border:1px solid black;
