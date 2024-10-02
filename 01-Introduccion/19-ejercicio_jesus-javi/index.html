@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Frutería de Javitxu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a La Frutería de Javitxu</h2>
+        <p>Frutas y verduras frescas de la mejor calidad directamente a tu mesa. Nos especializamos en productos locales y orgánicos.</p>
+        <img src="../imgs/logo.png" alt="Imagen de frutas frescas">
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="service">
+            <h3>Venta de Frutas y Verduras</h3>
+            <p>Ofrecemos una amplia variedad de frutas y verduras frescas, seleccionadas con la mayor dedicación.</p>
+        </div>
+        <div class="service">
+            <h3>Cestas de Frutas</h3>
+            <p>Cestas personalizadas de frutas para regalar o disfrutar en casa. ¡Elige las tuyas!</p>
+        </div>
+        <div class="service">
+            <h3>Pedidos a Domicilio</h3>
+            <p>Realiza tu pedido online o por teléfono y te lo llevamos a la puerta de tu casa.</p>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En La Frutería de Javitxu nos dedicamos a ofrecer productos frescos desde 1995. Nuestra misión es llevar a nuestros clientes productos de calidad, locales y con el mejor sabor. Somos una empresa familiar que ha crecido gracias a la confianza de nuestros clientes.</p>
+        <img src="../imgs/banner.png" alt="Nuestra frutería">
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos a través del siguiente formulario o visitarnos en nuestra tienda.</p>
+
+        <!-- Formulario de contacto básico -->
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Google Maps Iframe -->
+        <h3>Encuéntranos aquí</h3>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509647!2d144.95565131539286!3d-37.8162797420216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5771d08c1da5b1a!2sFederation%20Square!5e0!3m2!1ses!2sau!4v1600048881982!5m2!1ses!2sau" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 La Frutería de Javitxu. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
