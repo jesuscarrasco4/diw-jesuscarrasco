@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+header {
+    border: 2px solid #000;
+    background-color: #add;
+    color:#fff;
+    margin:5px;
+}
+
+nav {
+    border: 2px solid #000;
+    background-color: #add;
+    margin:5px;
+}
+
+.union {
+    background: linear-gradient(to left, #00f, #fff);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:5px;
+    border: 1px solid #00f;
+}
+
+.container {
+    width: 90%;
+    border: 1px solid #000;
+    background: linear-gradient(to bottom, #fff, #f90);
+    margin:5px
+}
+
+.article {
+    border: 1px solid #000;
+    margin: 5px;
+    background:transparent;
+}
+
+img {
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+}
+
+footer {
+    margin: 5px;
+    border: 2px solid #000;
+    background-color: #0d0;
+}
+
