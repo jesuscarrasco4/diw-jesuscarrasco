@@ -1,0 +1,46 @@
+1. Descripción del Archivo
+Archivo descargado: leeme.exe.
+Tamaño del archivo: 393.862 bytes.
+2. Proceso de Descompresión
+Descomprimí el archivo leeme.exe en mi disco duro.
+Archivo extraído: leeme.txt.
+Archivo original eliminado: Se eliminó el archivo leeme.exe después de descomprimirlo.
+3. Comandos Utilizados
+Abrí la consola de comandos y navegué al directorio donde se encontraba el archivo:
+
+plaintext
+Copiar código
+cd C:\Users\jesus\Downloads
+Ejecuté el siguiente comando para listar los flujos de datos alternativos:
+
+plaintext
+Copiar código
+dir /r
+La salida mostró lo siguiente, indicando que había un flujo de datos alternativo asociado:
+
+bash
+Copiar código
+98 leeme.txt:oculto.txt:$DATA
+Accedí al contenido del flujo alternativo utilizando el comando:
+
+plaintext
+Copiar código
+more < leeme.txt:oculto.txt
+4. Texto Oculto Encontrado
+Texto oculto (Base64):
+
+Copiar código
+RWwgdGV4dG8gcXVlIGRlYmVzIHN1YmlyIGEgQ2xhc3NSb29tIGVzOiAiKioqIEtldmluIE1pdG5pY2sgLSBIYWNrZXIgKioqIg
+Decodificación del Texto Oculto:
+
+Para decodificar la cadena Base64, utilicé una página web de decodificación de Base64 (https://www.base64decode.org/).
+Ingresé la cadena en el campo de entrada y obtuve el siguiente resultado al hacer clic en "Decode":
+Texto decodificado:
+
+css
+Copiar código
+El texto que debes subir a ClassRoom es: "*** Kevin Mitnick - Hacker ***"
+5. Conclusiones
+He encontrado un mensaje oculto en el archivo leeme.txt, que se refiere a Kevin Mitnick, un famoso hacker. Este mensaje puede ser relevante para mi actividad en la plataforma ClassRoom.
+6. Pasos Finales
+Como parte de la documentación de este ejercicio, he preparado este informe, que se subirá a la plataforma según las instrucciones del profesor.

@@ -1,0 +1,20 @@
+table {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #ddd;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+.mes {
+    color: white;
+    background-color: black;
+}
+
+.total {
+    background-color: #aaa;
+}

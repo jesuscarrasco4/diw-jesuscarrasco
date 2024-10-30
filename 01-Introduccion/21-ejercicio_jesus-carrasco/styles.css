@@ -1,0 +1,51 @@
+@media screen {
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f0f0f0;
+    }
+    header, nav, footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    main {
+        padding: 20px;
+    }
+    aside {
+        background-color: #eaeaea;
+        padding: 15px;
+        margin: 10px 0;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media print {
+    header, footer, nav, aside {
+        display: none;
+    }
+    body {
+        font-size: 12pt;
+        color: #000;
+        background-color: #fff;
+    }
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    a:after {
+        content: " (" attr(href) ")";
+    }
+}

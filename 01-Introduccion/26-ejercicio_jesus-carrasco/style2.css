@@ -1,0 +1,18 @@
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Verdana;
+        }
+        th, td {
+            border: 2px solid #ddd;
+            padding: 10px;
+            text-align:start;
+
+        }
+        .febrero {
+            background-color: #e96060;
+
+        }
+        .enero {
+            background-color: #f2b2b2;
+        }
