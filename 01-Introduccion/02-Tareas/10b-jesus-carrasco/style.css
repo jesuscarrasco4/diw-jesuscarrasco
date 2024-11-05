@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 1.5fr 100px;
+    grid-template-rows: 100px 1.5fr 100px;
+    gap: 10px;
+    width: 340px;
+}
+
+
+.cajas {
+    background-color: #666;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+/* Posiciones específicas usando grid-column y grid-row */
+.uno { grid-column: 1 / 2; grid-row: 1 / 3; }    /* Ocupa dos filas en la primera columna */
+.dos { grid-column: 2 / 3; grid-row: 1 / 2; }    /* Ocupa una celda en la segunda columna */
+.tres { grid-column: 3 / 4; grid-row: 1 / 3; }   /* Ocupa dos filas en la tercera columna */
+.cuatro { grid-column: 1 / 2; grid-row: 3 / 4; } /* Ocupa una celda en la tercera fila */
+.cinco { grid-column: 2 / 3; grid-row: 2 / 4; }  /* Ocupa dos filas en el centro */
+.seis { grid-column: 3 / 4; grid-row: 3 / 4; }   /* Ocupa una celda en la tercera fila */
+.siete { grid-column: 1 / 2; grid-row: 4 / 6; }  /* Ocupa una celda en la cuarta fila */
+.ocho { grid-column: 2 / 3; grid-row: 4; }   /* Ocupa una celda en la cuarta fila, un poco más arriba */
+.nueve { grid-column: 3 / 4; grid-row: 4 / 6; }  /* Ocupa una celda en la cuarta fila */
