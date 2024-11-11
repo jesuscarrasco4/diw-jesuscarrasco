@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de HTML de [Tu Nombre]</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h1>Bienvenido a la Página de [Tu Nombre]</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque felis nec libero volutpat.</p>
+    </section>
+
+    <section id="acerca">
+        <h2>Acerca de</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod, sapien non condimentum.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet lacus nec augue malesuada lacinia.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <p>Imágenes de muestra:</p>
+        <img src="images/imagen1.png" alt="Imagen 1">
+        <img src="images/imagen2.jpg" alt="Imagen 2">
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta, puedes contactarme en <a href="jesus@iescastelar.com">jesus@iescastelar.com</a>.</p>
+    </section>
+</body>
+</html>
