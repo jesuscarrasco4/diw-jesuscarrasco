@@ -15,7 +15,7 @@
     justify-content: center;
     font-size: 1.5em;
 }
-
+ss
 /* Posiciones específicas usando grid-column y grid-row */
 .uno { grid-column: 1 / 2; grid-row: 1 / 3; }    /* Ocupa dos filas en la primera columna */
 .dos { grid-column: 2 / 3; grid-row: 1 / 2; }    /* Ocupa una celda en la segunda columna */
