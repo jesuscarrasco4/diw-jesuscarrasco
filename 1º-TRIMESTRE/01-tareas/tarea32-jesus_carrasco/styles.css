@@ -1,0 +1,52 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+    position: relative;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+}
+
+.red {
+    background-color: red;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+}
+
+.green {
+    background-color: green;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+}
+
+.blue {
+    background-color: blue;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+}
+
+.purple {
+    background-color: purple;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Por encima de todos */
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+}

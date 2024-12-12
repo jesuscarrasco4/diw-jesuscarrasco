@@ -1,0 +1,45 @@
+
+
+/* Contenedor de la cuadrícula */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    grid-template-rows: repeat(4, 1fr);   /* 4 filas iguales */
+    width: 90%;
+    max-width: 600px;
+    aspect-ratio: 1 / 1; /* Cuadrado */
+    position: relative;  /* Necesario para posicionar cuadros superpuestos */
+    background-color: #fff;
+    border: 2px solid #ccc;
+}
+
+/* Estilo base de las celdas */
+.grid-item {
+    border: 1px solid #ddd;
+}
+
+/* Cuadro amarillo */
+.yellow {
+    background-color: yellow;
+    position: absolute;
+    grid-column: 1 / 5; /* De columna 1 a columna 2 */
+    grid-row: 1 / 5;    /* De fila 1 a fila 2 */
+    z-index: 1;         /* Detrás del cuadro rojo */
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+/* Cuadro rojo */
+.red {
+    background-color: red;
+    position: absolute;
+    grid-column: 1.5 / 4; /* De columna 2 a columna 3 */
+    grid-row: .5 / 4;    /* De fila 2 a fila 3 */
+    z-index: 2;         /* Encima del cuadro amarillo */
+    top: 25%;           /* Ajusta para superposición */
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}

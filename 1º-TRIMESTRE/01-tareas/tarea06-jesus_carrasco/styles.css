@@ -5,10 +5,10 @@
 }
 
 .header, .footer, .sidebar, .content {
-    display: flex;               /* Añadimos flexbox */
-    justify-content: center;      /* Alinea el contenido horizontalmente */
-    align-items: center;          /* Alinea el contenido verticalmente */
-    text-align: center;           /* Asegura que el texto esté centrado */
+    display: flex;               
+    justify-content: center;      
+    align-items: center;         
+    text-align: center;        
 }
 
 body {

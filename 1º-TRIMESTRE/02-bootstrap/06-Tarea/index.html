@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre">
+    <meta name="description" content="Página responsive para presentar maquinaria de gimnasios, con diseño adaptado a tabletas y computadoras de escritorio.">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="styles.css">
+    <title>Maquinaria de Gimnasios</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header-banner">
+        <h1>Equipos de Gimnasio Profesionales</h1>
+        <p>Calidad garantizada para tus entrenamientos</p>
+    </header>
+    
+    <div class="container mt-4">
+        <!-- Sección principal -->
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <img src="https://webapi-prod.technogym.com/dw/image/v2/BFLQ_PRD/on/demandware.static/-/Sites-tg-catalog-master/default/dw551c994f/product/DGK0/technogym-run-plp.jpg?sw=896&sh=896" alt="Máquina de correr" class="maquinaria-img">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <h2>Caminadoras Profesionales</h2>
+                <p>Las caminadoras de última generación te ofrecen un entrenamiento personalizado con tecnología avanzada.</p>
+            </div>
+        </div>
+
+        <!-- Offset en la siguiente sección -->
+        <div class="row align-items-center mt-5">
+            <div class="col-lg-4 offset-lg-2">
+                <h2>Máquinas de Pesas</h2>
+                <p>Ideales para el fortalecimiento muscular. Ajustables para adaptarse a cualquier rutina.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://webapi-prod.technogym.com/dw/image/v2/BFLQ_PRD/on/demandware.static/-/Sites-tg-catalog-master/default/dw500781be/product/DGY100/technogym_bench_gallery_001.jpg?sw=896&sh=896" alt="Máquina de pesas" class="maquinaria-img">
+            </div>
+        </div>
+
+        <!-- Sección oculta en tablet -->
+        <div class="row mt-5 desktop-only">
+            <div class="col-12 text-center">
+                <h2>Promociones Exclusivas</h2>
+                <p>Visita nuestras tiendas y obtén descuentos especiales en equipos seleccionados.</p>
+            </div>
+        </div>
+
+        <!-- Sección visible solo en tablet -->
+        <div class="row mt-5 tablet-only">
+            <div class="col-12 text-center">
+                <h2>Promociones para Tablets</h2>
+                <p>Explora ofertas exclusivas en nuestra versión móvil y tablet.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

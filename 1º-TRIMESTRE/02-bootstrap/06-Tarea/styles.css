@@ -1,0 +1,24 @@
+.header-banner {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+.maquinaria-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.desktop-only {
+    display: block;
+}
+.tablet-only {
+    display: none;
+}
+@media (max-width: 768px) {
+    .desktop-only {
+    display: none;
+    }
+    .tablet-only {
+    display: block;
+}
+}
